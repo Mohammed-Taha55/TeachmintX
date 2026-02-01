@@ -114,8 +114,8 @@
 
 export default function Hero(){
     return(
-     <section id="hero">
-       <div className="min-h-screen mt-30 max-w-6xl mx-auto">
+     <section id="hero" className="bg-blue-100">
+       <div className="md:min-h-screen mt-8 md:mt-16 max-w-6xl mx-auto px-4 py-12">
          <div className="bg-blue-200 rounded-full px-3 py-1 w-50 ml-5">
          <h2 className="cursor-pointer text-gray-700 hover:text-blue-600 font-semibold">🚀Let's Boost Learning</h2>
          </div>

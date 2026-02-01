@@ -1,8 +1,8 @@
 export default function Footer(){
     return(
         <section id="contact">
-            <div className="border-t-2 mt-10 p-8 max-w-6xl mx-auto">
-             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="border-t-2 mt-10 p-8 max-w-6xl mx-auto bg-blue-100">
+             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
                 <div>
                     <h2 className="text-2xl font-semibold mb-2">Location</h2>
                     <p className="text-sm text-gray-700 mb-1">Bengaluru</p>

@@ -15,7 +15,7 @@ export default function App() {
     <>
       {!hideNavbar && <Navbar />}
 
-      <main className="pt-6 bg-blue-100">
+      <main className="pt-6">
         <Routes>
           <Route
             path="/"

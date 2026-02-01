@@ -1,7 +1,7 @@
 export default function Products(){
     return(
         <section id="products">
-          <div className="max-w-7xl mx-auto p-4">
+          <div className="max-w-7xl mx-auto p-4 bg-blue-100">
               <h1 className="text-4xl lg:text-5xl font-semibold text-center p-8">Products</h1>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-gray-300 rounded-xl px-8 py-4 shadow-md hover:shadow-2xl transition-colors">

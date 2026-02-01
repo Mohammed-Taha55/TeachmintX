@@ -32,7 +32,7 @@ export default function Accordion() {
 
   return (
     <section id="query"> 
-      <div className="lg:max-w-6xl mx-auto space-y-3 m-2 px-4">
+      <div className="lg:max-w-6xl mx-auto space-y-3 m-2 px-4 bg-blue-100">
           <h2 className="text-4xl lg:text-5xl font-semibold text-center p-8">Most asked questions</h2>
         {faqs.map((item, index) => (
           <div
